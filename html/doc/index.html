@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Aster - Portfolio Agency HTML5 Template</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets/table.css">
+</head>
+<body>
+	<header class="dt-header dt-header_blue">
+		<span class="dt-logo">Aster - Portfolio Agency HTML5 Template</span>
+	</header>
+	<div class="dt-container dt-container_flex">
+		<aside class="dt-navbar">
+			<nav class="dt-navbar__nav">
+				<div class="dt-navbar__section">
+					<ul class="dt-navbar__list">
+						<li><a href="#files_structure" class="dt-navbar__link">File structure</a></li>
+						<li>
+							<a href="#settings" class="dt-navbar__link">Settings</a>
+							<ul class="dt-navbar__list">
+								<li><a href="#include_fonts" class="dt-navbar__link dt-navbar__link_nested">Include Fonts</a></li>
+								<li><a href="#include_icons" class="dt-navbar__link dt-navbar__link_nested">Edit Icons</a></li>
+							</ul>
+						</li>
+						<li><a href="#conts" class="dt-navbar__link">Contact Form PHP</a></li>
+						<li>
+							<a href="#html_structure" class="dt-navbar__link">HTML structure</a>
+							<ul class="dt-navbar__list">
+								<li><a href="#html_structure_header" class="dt-navbar__link dt-navbar__link_nested">"Header" Section</a></li>
+								<li><a href="#html_structure_footer" class="dt-navbar__link dt-navbar__link_nested">"Footer" Section</a></li>
+								<li><a href="#html_structure_home" class="dt-navbar__link dt-navbar__link_nested">"Home" Pages</a></li>
+								<li><a href="#html_structure_about" class="dt-navbar__link dt-navbar__link_nested">"About" Page</a></li>
+								<li><a href="#html_structure_works" class="dt-navbar__link dt-navbar__link_nested">"Works" Pages</a></li>
+								<li><a href="#html_structure_contacts" class="dt-navbar__link dt-navbar__link_nested">"Contacts" Page</a></li>
+							</ul>
+						</li>
+						<li><a href="#icons" class="dt-navbar__link">Icons</a></li>
+						<li><a href="#credits" class="dt-navbar__link">Credits</a></li>
+					</ul>
+				</div>
+			</nav>
+		</aside>
+		<div class="dt-content dt-content_scroll-bar-yes">
+			<div class="dt-section">
+				<h2 class="dt-title">Aster - Portfolio Agency HTML5 Template</h2>
+				<p>by: beshleyua</p>
+				<p>Thank you for your purchase. If you have any questions, mail me to - <a href="mailto:beshleyua@gmail.com">beshleyua@gmail.com</a></p>
+			</div>
+			<article id="files_structure" class="dt-section">
+				<h2 class="dt-title">File structure</h2>
+				<p>After unpacking archive, you'll see this structure:</p>
+				<div class="dt-info-block">
+					<pre class="code language-html">
+						<code>
+html/
+│
+├──doc/
+├──template/
+│──│──assets/
+│──│──│──css/
+│──│──│──│──vendors/
+│──│──│──│──│──animate.css
+│──│──│──│──│──bootstrap.css
+│──│──│──│──│──magnific-popup.css
+│──│──│──│──│──splitting.css
+│──│──│──│──│──swiper.css
+│──│──│──│──main.css
+│──│──│──fonts/
+│──│──│──│──font-awesome/
+│──│──│──images/
+│──│──│──js/
+│──│──│──│──bootstrap.js
+│──│──│──│──common.js
+│──│──│──│──ex-slider.js
+│──│──│──│──full-slider.js
+│──│──│──│──half-slider.js
+│──│──│──│──hero-started.js
+│──│──│──│──imagesloaded.pkgd.js
+│──│──│──│──isotope.pkgd.js
+│──│──│──│──jarallax.min.js
+│──│──│──│──jquery.min.js
+│──│──│──│──jquery.scrolla.js
+│──│──│──│──jquery.validate.min.js
+│──│──│──│──magnific-popup.js
+│──│──│──│──main-slider.js
+│──│──│──│──pixi.min.js
+│──│──│──│──skrollr.js
+│──│──│──│──splitting.min.js
+│──│──│──│──swiper.js
+│──│──│──│──TweenMax.min.js
+│──│──mailer/
+│──│──│──feedback.php
+│──│──│──form_setting.php
+│──│──index.html
+│──│──home-portfolio.html
+│──│──home-half-slider.html
+│──│──home-motion-slider.html
+│──│──home-grid-slider.html
+│──│──home-grid-fully-slider.html
+│──│──about.html
+│──│──about-two.html
+│──│──contacts.html
+│──│──blog.html
+│──│──blog-single.html
+│──│──contacts.html
+│──│──gallery-2-column.html
+│──│──gallery-3-column.html
+│──│──works-2-column.html
+│──│──works-3-column.html
+│──│──works-creative.html
+│──│──work-single.html
+						</code>
+					</pre>
+				</div>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">css/</span> - all CSS for pages
+						<ul class="dt-list dt-list_nested">
+							<li><span class="dt-label dt-label_bold">/vendors/</span> - plugins styles for template</li>
+							<li><span class="dt-label dt-label_bold">main.css</span> - main CSS for template</li>
+						</ul>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">js/</span> - all JS library for template
+						<ul class="dt-list dt-list_nested">
+							<li><span class="dt-label dt-label_bold">common.js</span> - main JS for template</li>
+						</ul>
+					</li>
+				</ul>
+			</article>
+			<article id="settings" class="dt-section">
+				<h2 class="dt-title">Settings</h2>
+			</article>
+			<article id="include_fonts" class="dt-section">
+				<h2 class="dt-title">Include of fonts</h2>
+				<p>To use fonts, you must add one tag 'link' from section below to head section.</p>
+				<pre class="code language-html">
+					<code>
+&lt;link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"&gt;
+&lt;link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet"&gt;
+&lt;link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet"&gt;
+					</code>
+				</pre>
+				<p>
+					Next step is to replace "font-family: '...';" to your fonts names.
+				</p>
+			</article>
+			<article id="include_icons" class="dt-section">
+				<h2 class="dt-title">Edit Icons</h2>
+				<p>In this template are defined some of classes for icons, see all icons here - <a href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free">https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free</a>, use search and select icons.</p>
+				<p>Copy icon class (for example "fas fa-code") and add to tag in html file like this:</p>
+				<pre class="code language-html">
+					<code>
+&lt;i class="fas fa-pencil-ruler"&gt;&lt;/i&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="conts" class="dt-section">
+				<h2 class="dt-title">Contact Form PHP</h2>
+				<p>To modify the form is submitted, you can use the following settings, folders "/mailer/form_setting.php" and "/mailer/feedback.php"</p>
+			</article>
+			<article id="html_structure" class="dt-section">
+				<h2 class="dt-title">HTML structure</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!doctype html&gt;
+&lt;html lang="en-US"&gt;
+&lt;head&gt;
+
+  &lt;title&gt;Aster - Portfolio Agency Template&lt;/title&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+  &lt;meta name="HandheldFriendly" content="true"&gt;
+  &lt;meta name="author" content="beshleyua" /&gt;
+
+  &lt;!-- Fonts --&gt;
+  &lt;link rel="dns-prefetch" href="//fonts.googleapis.com" /&gt;
+  &lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CPlayfair+Display%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CMr+De+Haviland&#038;display=swap" type="text/css" media="all" /&gt;
+
+  &lt;!-- CSS STYLES --&gt;
+  &lt;link rel="stylesheet" href="assets/css/vendors/bootstrap.css" type="text/css" media="all" /&gt;
+  &lt;link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" type="text/css" media="all" /&gt;
+  &lt;link rel="stylesheet" href="assets/css/vendors/magnific-popup.css" type="text/css" media="all" /&gt;
+  &lt;link rel="stylesheet" href="assets/css/vendors/splitting.css" type="text/css" media="all" /&gt;
+  &lt;link rel="stylesheet" href="assets/css/vendors/swiper.css" type="text/css" media="all" /&gt;
+  &lt;link rel="stylesheet" href="assets/css/vendors/animate.css" type="text/css" media="all" /&gt;
+  &lt;link rel="stylesheet" href="assets/css/main.css" type="text/css" media="all" /&gt;
+
+  &lt;!--[if lt IE 9]&gt;
+	&lt;script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"&gt;&lt;/script&gt;
+	&lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+  &lt;!-- Favicon --&gt;
+	&lt;link rel="shortcut icon" href="favicon.ico" type="image/x-icon"&gt;
+	&lt;link rel="icon" href="favicon.ico" type="image/x-icon"&gt;
+
+&lt;/head&gt;
+
+&lt;body class="home page"&gt;
+&lt;div class="container-page"&gt;
+
+  &lt;!-- Preloader --&gt;
+  &lt;div class="preloader"&gt;
+    &lt;div class="centrize full-width"&gt;
+      &lt;div class="vertical-center"&gt;
+        &lt;div class="spinner-logo"&gt;
+          &lt;img src="assets/images/logo.png" alt="" /&gt;
+          &lt;div class="spinner-dot"&gt;&lt;/div&gt;
+          &lt;div class="spinner spinner-line"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+	&lt;!-- Header --&gt;
+	&lt;header class="header"&gt;
+    &lt;div class="header__builder"&gt;
+
+      ...
+
+		&lt;/div&gt;
+	&lt;/header&gt;
+
+	&lt;!-- Wrapper --&gt;
+	&lt;div class="wrapper"&gt;
+
+		...
+
+	&lt;/div&gt;
+
+	&lt;!-- Footer --&gt;
+	&lt;footer class="footer"&gt;
+	  &lt;div class="footer__builder"&gt;
+
+			...
+
+	  &lt;/div&gt;
+	&lt;/footer&gt;
+
+	&lt;!-- cursor --&gt;
+	&lt;div class="cursor"&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script src="assets/js/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/bootstrap.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/swiper.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/splitting.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/TweenMax.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/pixi.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/jarallax.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/magnific-popup.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/imagesloaded.pkgd.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/isotope.pkgd.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/jquery.scrolla.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/skrollr.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/main-slider.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/full-slider.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/half-slider.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/ex-slider.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/hero-started.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/common.js"&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_header" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Header"</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- Header --&gt;
+&lt;header class="header"&gt;
+	&lt;div class="header__builder"&gt;
+
+		&lt;!-- logo --&gt;
+		&lt;div class="logo-image"&gt;
+			 &lt;a href="index.html"&gt;&lt;img src="assets/images/logo.png" alt="logo" /&gt;&lt;/a&gt;
+		&lt;/div&gt;
+
+		&lt;!-- menu btn --&gt;
+		&lt;a href="#" class="menu-btn full"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+
+		&lt;!-- Menu Full Overlay --&gt;
+		&lt;div class="menu-full-overlay"&gt;
+
+			&lt;div class="menu-full-container"&gt;
+				&lt;div class="container"&gt;
+					&lt;div class="row"&gt;
+						&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-1"&gt;
+
+							&lt;!-- menu full --&gt;
+							&lt;div class="menu-full"&gt;
+								&lt;ul class="menu-full"&gt;
+									&lt;li class="menu-item menu-item-has-children has-children"&gt;
+										&lt;a class="splitting-text-anim-2" data-splitting="chars" href="#"&gt;Home&lt;/a&gt;
+										&lt;ul class="sub-menu"&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="index.html"&gt;Parallax Slider&lt;/a&gt;&lt;/li&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="home-grid-slider.html"&gt;Grid Slider&lt;/a&gt;&lt;/li&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="home-half-slider.html"&gt;Half Slider&lt;/a&gt;&lt;/li&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="home-grid-fully-slider.html"&gt;Blur Horizontal Slider&lt;/a&gt;&lt;/li&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="home-motion-slider.html"&gt;Distortion Slider&lt;/a&gt;&lt;/li&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="home-portfolio.html"&gt;Portfolio Grid&lt;/a&gt;&lt;/li&gt;
+										&lt;/ul&gt;
+									&lt;/li&gt;
+									&lt;li class="menu-item menu-item-has-children has-children"&gt;
+										&lt;a class="splitting-text-anim-2" data-splitting="chars" href="#"&gt;About&lt;/a&gt;
+										&lt;ul class="sub-menu"&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="about.html"&gt;About One&lt;/a&gt;&lt;/li&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="about-two.html"&gt;About Two&lt;/a&gt;&lt;/li&gt;
+										&lt;/ul&gt;
+									&lt;/li&gt;
+									&lt;li class="menu-item menu-item-has-children has-children"&gt;
+										&lt;a class="splitting-text-anim-2" data-splitting="chars" href="#"&gt;Works&lt;/a&gt;
+										&lt;ul class="sub-menu"&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="works-2-column.html"&gt;Works (2 Columns)&lt;/a&gt;&lt;/li&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="works-3-column.html"&gt;Works (3 Columns)&lt;/a&gt;&lt;/li&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="works-creative.html"&gt;Works (Creative)&lt;/a&gt;&lt;/li&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="gallery-2-column.html"&gt;Gallery (2 Columns)&lt;/a&gt;&lt;/li&gt;
+											&lt;li class="menu-item"&gt;&lt;a class="splitting-text-anim-1" data-splitting="chars" href="gallery-3-column.html"&gt;Gallery (3 Columns)&lt;/a&gt;&lt;/li&gt;
+										&lt;/ul&gt;
+									&lt;/li&gt;
+									&lt;li class="menu-item"&gt;
+										&lt;a class="splitting-text-anim-2" data-splitting="chars" href="contacts.html"&gt;Contact&lt;/a&gt;
+									&lt;/li&gt;
+									&lt;li class="menu-item"&gt;
+										&lt;a class="splitting-text-anim-2" data-splitting="chars" href="blog.html"&gt;Blog&lt;/a&gt;
+									&lt;/li&gt;
+								&lt;/ul&gt;
+							&lt;/div&gt;
+
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;!-- social --&gt;
+			&lt;div class="menu-social-links"&gt;
+				&lt;a href="https://instagram.com/" target="blank" class="scrolla-element-anim-1" title="Instagram"&gt;Instagram&lt;/a&gt;
+				&lt;a href="https://facebook.com/" target="blank" class="scrolla-element-anim-1" title="Facebook"&gt;Facebook&lt;/a&gt;
+				&lt;a href="https://twitter.com/" target="blank" class="scrolla-element-anim-1" title="Twitter"&gt;Twitter&lt;/a&gt;
+				&lt;a href="https://linkedin.com/" target="blank" class="scrolla-element-anim-1" title="Linkedin"&gt;Linkedin&lt;/a&gt;
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/header&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_footer" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Footer"</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- Footer --&gt;
+&lt;footer class="footer"&gt;
+  &lt;div class="footer__builder"&gt;
+    &lt;div class="container align-center"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-4"&gt;
+
+          &lt;!-- titles --&gt;
+          &lt;div class="h-titles"&gt;
+            &lt;div class="h-subtitle scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;Address:&lt;/div&gt;
+            &lt;div class="h-text scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;Ridgewood Queens, &lt;br&gt;NY 11385, USA&lt;/div&gt;
+          &lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-4"&gt;
+
+          &lt;!-- titles --&gt;
+          &lt;div class="h-titles"&gt;
+            &lt;div class="h-subtitle scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;Follow Us:&lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;!-- social --&gt;
+          &lt;div class="social-links footer-social-links"&gt;
+            &lt;a target="_blank" href="https://instagram.com/" class="scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+              &lt;i aria-hidden="true" class="fab fa-instagram"&gt;&lt;/i&gt;
+            &lt;/a&gt;
+            &lt;a target="_blank" href="https://facebook.com/" class="scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+              &lt;i aria-hidden="true" class="fab fa-facebook-f"&gt;&lt;/i&gt;
+            &lt;/a&gt;
+            &lt;a target="_blank" href="https://twitter.com/" class="scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+              &lt;i aria-hidden="true" class="fab fa-twitter"&gt;&lt;/i&gt;
+            &lt;/a&gt;
+            &lt;a target="_blank" href="https://linkedin.com/" class="scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+              &lt;i aria-hidden="true" class="fab fa-linkedin-in"&gt;&lt;/i&gt;
+            &lt;/a&gt;
+          &lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-4"&gt;
+
+          &lt;!-- titles --&gt;
+          &lt;div class="h-titles"&gt;
+            &lt;div class="h-subtitle scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;Get in touch:&lt;/div&gt;
+            &lt;div class="h-text scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+              &lt;p&gt;asteragency@domain.com&lt;br /&gt;+012 (234) 567 78&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+          &lt;div class="copyright-text scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;Copyright © 2021 Aster&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_home" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Home" pages</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- Section Hero Main Slider --&gt;
+&lt;div class="section hero-main-slider"&gt;
+	&lt;div class="swiper-container"&gt;
+		&lt;div class="swiper-wrapper"&gt;
+
+			&lt;div class="swiper-slide"&gt;
+
+				&lt;!-- image --&gt;
+				&lt;div class="slide" style="background-image: url(assets/images/started-n26-1920x1080.jpg);"&gt;&lt;/div&gt;
+
+				&lt;!-- slide titles --&gt;
+				&lt;div class="slide-titles"&gt;
+					&lt;div class="row"&gt;
+						&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+
+							&lt;!-- title --&gt;
+							&lt;div class="titles dark"&gt;
+								&lt;div class="label scrolla-element-anim-1"&gt;branding&lt;/div&gt;
+								&lt;div class="title"&gt;
+									&lt;span class="title-inner splitting-text-anim-2" data-splitting&gt;Melanin &lt;br&gt;Goddess&lt;/span&gt;
+								&lt;/div&gt;
+								&lt;div class="subtitle scrolla-element-anim-1"&gt;
+									Creativity is to discover a question that has never been asked. If one brings up an idiosyncratic question, the answer he gives will necessarily be unique as well.
+								&lt;/div&gt;
+							&lt;/div&gt;
+
+							&lt;div class="more-bts"&gt;
+								&lt;a href="#" data-splitting class="btn more-btn scrolla-element-anim-1"&gt;see details&lt;/a&gt;
+							&lt;/div&gt;
+
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+
+			...
+
+		&lt;/div&gt;
+
+		&lt;!-- pagination --&gt;
+		&lt;div class="swiper-pagination scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;&lt;/div&gt;
+
+		&lt;!-- navigation --&gt;
+		&lt;div class="swiper-buttons"&gt;
+			&lt;div class="swiper-button-prev"&gt;&lt;/div&gt;
+			&lt;div class="swiper-button-next"&gt;&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_about" class="dt-section">
+				<h2 class="dt-title">HTML structure of "About" pages</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- Section Started Heading --&gt;
+&lt;div class="section section-inner started-heading"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+
+        &lt;!-- titles --&gt;
+        &lt;div class="h-titles"&gt;
+          &lt;div class="h-title splitting-text-anim-2 scroll-animate" data-splitting="chars" data-animate="active"&gt;About us&lt;/div&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Section Image Large --&gt;
+&lt;div class="section section-inner m-image-large scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+  &lt;div class="image"&gt;
+    &lt;div class="img js-parallax" style="background-image: url(assets/images/about2.jpg);"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="section section-inner scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+        &lt;h1&gt;We are startup&lt;br /&gt;digital agency&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-6"&gt;
+        A Los Angeles based studio building handcrafted websites and brands for companies and all over the world. It is not enough that we build products that function, that are understandable and usable, we also need to build products that bring joy and excitement, pleasure and fun, and, yes, beauty to people’s lives. Creativity is to discover a question that has never been asked. If one brings up an idiosyncratic questionl.
+      &lt;/div&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-6"&gt;
+        The development of digital marketing is inseparable from technology development. One of the first key events happened in 1971, when Ray Tomlinson sent the first email, and his technology set the platform to allow people to send and receive files through different machines. However, the more recognizable period as being the start of Digital Marketing is 1990 as this was where the Archie search engine was created as an index for FTP sites.
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Section Services --&gt;
+&lt;div class="section section-inner m-services"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12"&gt;
+
+        &lt;!-- titles --&gt;
+        &lt;div class="m-titles"&gt;
+          &lt;h2 class="m-title scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;Our services&lt;/h2&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+
+        &lt;!-- services --&gt;
+        &lt;div class="services-items row"&gt;
+
+          &lt;div class="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4"&gt;
+            &lt;div class="services-item scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+              &lt;div class="icon"&gt;
+                &lt;i aria-hidden="true" class="fas fa-chart-bar"&gt;&lt;/i&gt;
+              &lt;/div&gt;
+              &lt;div class="name"&gt;Marketing&lt;/div&gt;
+              &lt;div class="text"&gt;Focused on creating, publishing, and distributing content for a targeted audience online.&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          ...
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Section Description --&gt;
+&lt;div class="section section-inner m-description"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12"&gt;
+        &lt;div class="m-titles"&gt;
+          &lt;div class="m-title scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;Our vision&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+        &lt;div class="description-list-items"&gt;
+
+          &lt;div class="description-list-item scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+            &lt;div class="desc"&gt;
+              &lt;div class="name"&gt;
+                &lt;span class="number"&gt;01.&lt;/span&gt;
+                Search Engine Optimization
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          ...
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Section Video Large --&gt;
+&lt;div class="section section-inner m-video-large"&gt;
+  &lt;div class="video scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+    &lt;div class="img js-parallax" style="background-image: url(assets/images/started-n7.jpg);"&gt;&lt;/div&gt;
+    &lt;iframe class="js-video-iframe" data-src="https://www.youtube.com/embed/Gu6z6kIukgg?showinfo=0&rel=0&autoplay=1"&gt;&lt;/iframe&gt;
+    &lt;div class="play"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Section Team --&gt;
+&lt;div class="section section-inner m-team"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12"&gt;
+
+        &lt;!-- titles --&gt;
+        &lt;div class="m-titles"&gt;
+          &lt;h2 class="m-title scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;Meet the team&lt;/h2&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+
+        &lt;!-- team --&gt;
+        &lt;div class="team-items row"&gt;
+
+          &lt;div class="team-col col-xs-12 col-sm-12 col-md-6 col-lg-4"&gt;
+            &lt;div class="team-item scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+              &lt;div class="image"&gt;
+                &lt;div class="img"&gt;
+                  &lt;img src="assets/images/team5.jpg" alt="" /&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class="desc"&gt;
+                &lt;div class="category"&gt;Founder&lt;/div&gt;
+                &lt;div class="name"&gt;Natasha Singh&lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          ...
+
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Section Testimonials --&gt;
+&lt;div class="section section-inner m-testimonials"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12"&gt;
+
+        &lt;!-- titles --&gt;
+        &lt;div class="m-titles"&gt;
+          &lt;h2 class="m-title scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;Our testimonials&lt;/h2&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+
+        &lt;!-- Carousel --&gt;
+        &lt;div class="swiper-container js-testimonials"&gt;
+          &lt;div class="swiper-wrapper"&gt;
+
+            &lt;!-- Testimonials item --&gt;
+            &lt;div class="testimonials-item swiper-slide"&gt;
+              &lt;div class="scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+                &lt;div class="image"&gt;
+                  &lt;img src="assets/images/rev1.png" alt="John Smith" /&gt;
+                &lt;/div&gt;
+                &lt;div class="desc"&gt;
+                  &lt;div class="title"&gt;John Smith&lt;/div&gt;
+                  &lt;div class="name"&gt;Designer&lt;/div&gt;
+                  &lt;div class="text"&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.&lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+            ...
+
+          &lt;/div&gt;
+
+          &lt;!-- Pagination  --&gt;
+          &lt;div class="swiper-pagination"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- /Carousel --&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Section Partners --&gt;
+&lt;div class="section section-inner m-partners"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+
+        &lt;!-- partners --&gt;
+        &lt;div class="partners-box"&gt;
+          &lt;div class="partners-items row"&gt;
+
+            &lt;div class="partners-col col-xs-12 col-sm-6 col-md-3 col-lg-3 scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+              &lt;div class="partners-item"&gt;
+                &lt;div class="image"&gt;
+                  &lt;a target="_blank" href="#"&gt;&lt;img src="assets/images/brand_logo_03_1.png" alt="#1" /&gt;&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+						...
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_works" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Works" pages</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- Section Started Heading --&gt;
+&lt;div class="section section-inner started-heading"&gt;
+	&lt;div class="container"&gt;
+		&lt;div class="row"&gt;
+			&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+
+				&lt;!-- titles --&gt;
+				&lt;div class="h-titles"&gt;
+					&lt;div class="h-title splitting-text-anim-2 scroll-animate" data-splitting="chars" data-animate="active"&gt;Projects&lt;/div&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Section Works --&gt;
+&lt;div class="section section-inner m-works"&gt;
+	&lt;div class="container"&gt;
+
+		&lt;!-- filter --&gt;
+		&lt;div class="filter-links"&gt;
+			&lt;a href="#" class="scrolla-element-anim-1 scroll-animate" data-animate="active" data-href=".works-col"&gt;All&lt;/a&gt;
+			&lt;a href="#" class="scrolla-element-anim-1 scroll-animate" data-animate="active" data-href=".sorting-print"&gt;Print&lt;/a&gt;
+			&lt;a href="#" class="scrolla-element-anim-1 scroll-animate" data-animate="active" data-href=".sorting-photography"&gt;Photography&lt;/a&gt;
+			&lt;a href="#" class="scrolla-element-anim-1 scroll-animate" data-animate="active" data-href=".sorting-branding"&gt;Branding&lt;/a&gt;
+			&lt;a href="#" class="scrolla-element-anim-1 scroll-animate" data-animate="active" data-href=".sorting-art"&gt;Art&lt;/a&gt;
+		&lt;/div&gt;
+
+		&lt;!-- works items --&gt;
+		&lt;div class="works-items row column-2-offset portfolio-infinite-scrolling"&gt;
+
+			&lt;div class="works-col col-xs-12 col-sm-6 col-md-6 col-lg-6 sorting-photography "&gt;
+				&lt;div class="works-item scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+					&lt;a href="work-single.html"&gt;
+						&lt;span class="image"&gt;
+							&lt;span class="img"&gt;
+								&lt;img src="assets/images/started-n12-900x1170.jpg" alt="Astronaut" /&gt;
+							&lt;/span&gt;
+						&lt;/span&gt;
+						&lt;span class="desc"&gt;
+							&lt;span class="category splitting-text-anim-4 scroll-animate" data-splitting="chars" data-animate="active"&gt;Photography&lt;/span&gt;
+							&lt;span class="name splitting-text-anim-4 scroll-animate" data-splitting="words" data-animate="active"&gt;Astronaut&lt;/span&gt;
+						&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			...
+
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_contacts" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Contacts" pages</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- Section Started Heading --&gt;
+&lt;div class="section section-inner started-heading"&gt;
+	&lt;div class="container"&gt;
+		&lt;div class="row"&gt;
+			&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+
+				&lt;!-- titles --&gt;
+				&lt;div class="h-titles"&gt;
+					&lt;div class="h-title splitting-text-anim-2 scroll-animate" data-splitting="chars" data-animate="active"&gt;Contact Us&lt;/div&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Section Image Large --&gt;
+&lt;div class="section section-inner m-image-large scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+	&lt;div class="image"&gt;
+		&lt;div class="img js-parallax" style="background-image: url(assets/images/contact.jpg);"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Section Contacts Form --&gt;
+&lt;div class="section section-inner m-contacts-form"&gt;
+	&lt;div class="container"&gt;
+		&lt;div class="row"&gt;
+			&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-6"&gt;
+
+				&lt;!-- titles --&gt;
+				&lt;div class="m-titles"&gt;
+					&lt;div class="m-title scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;Get in touch&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;!-- contact form --&gt;
+				&lt;div class="contacts-form"&gt;
+					&lt;form id="cform" method="post"&gt;
+						&lt;div class="group"&gt;
+							&lt;div class="value scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+								&lt;input type="text" name="name" placeholder="Full Name" /&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="group"&gt;
+							&lt;div class="value scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+								&lt;input type="text" name="email" placeholder="Email Address" /&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="group full"&gt;
+							&lt;div class="value scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+								&lt;textarea name="message" placeholder="Message"&gt;&lt;/textarea&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="submit scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+							&lt;a href="#" class="btn" onclick="$('#cform').submit(); return false;"&gt;
+								Send a Message
+							&lt;/a&gt;
+						&lt;/div&gt;
+					&lt;/form&gt;
+					&lt;div class="alert-success" style="display: none;"&gt;
+						&lt;p&gt;Thanks, your message is sent successfully.&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+			&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-6"&gt;
+
+					&lt;!-- titles --&gt;
+					&lt;div class="m-titles"&gt;
+						&lt;h2 class="m-title scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;Contact info&lt;/h2&gt;
+					&lt;/div&gt;
+
+					&lt;!-- services --&gt;
+					&lt;div class="services-items row"&gt;
+
+						&lt;div class="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4"&gt;
+							&lt;div class="services-item scrolla-element-anim-1 scroll-animate" data-animate="active"&gt;
+								&lt;div class="icon"&gt;
+									&lt;i aria-hidden="true" class="fas fa-phone-alt"&gt;&lt;/i&gt;
+								&lt;/div&gt;
+								&lt;div class="name"&gt;Phone:&lt;/div&gt;
+								&lt;div class="text"&gt;+1 (800) 123 56 89&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+
+						...
+
+					&lt;/div&gt;
+
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="icons" class="dt-section">
+				<h2 class="dt-title">Icons</h2>
+				<p>
+					In this template are defined some of classes for icons, your can see all icons here - https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free
+				</p>
+			</article>
+			<article id="credits" class="dt-section">
+				<h2 class="dt-title">Sourse & Credits</h2>
+				<h3>Scripts</h3>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Animate.css</span> <a target="_blank" href="https://daneden.github.io/animate.css/">https://daneden.github.io/animate.css/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">jQuery</span> <a target="_blank" href="https://jquery.com/">https://jquery.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Isotope</span> <a target="_blank" href="https://isotope.metafizzy.co/">https://isotope.metafizzy.co/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">imagesLoaded</span> <a target="_blank" href="http://imagesloaded.desandro.com/">http://imagesloaded.desandro.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">jQuery Validation Plugin</span> <a target="_blank" href="http://jqueryvalidation.org/">http://jqueryvalidation.org/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Magnific Popup</span> <a target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Swiper</span> <a target="_blank" href="https://swiperjs.com/">https://swiperjs.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Bootstrap</span> <a target="_blank" href="https://getbootstrap.com/">https://getbootstrap.com/</a>
+					</li>
+                    <li>
+						<span class="dt-label dt-label_bold">Scrolla.js</span> <a target="_blank" href="https://github.com/maximzhurkin/jquery-scrolla">https://github.com/maximzhurkin/jquery-scrolla</a>
+					</li>
+                    <li>
+						<span class="dt-label dt-label_bold">pixi.js</span> <a target="_blank" href="https://www.pixijs.com/">https://www.pixijs.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">skrollr.js</span> <a target="_blank" href="https://prinzhorn.github.io/skrollr/">https://prinzhorn.github.io/skrollr/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">splitting.js</span> <a target="_blank" href="https://splitting.js.org/">https://splitting.js.org/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">TweenMax.js</span> <a target="_blank" href="http://greensock.com">http://greensock.com</a>
+					</li>
+				</ul>
+				<h3>Fonts</h3>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Roboto</span>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Yeseva One</span>
+					</li>
+                    <li>
+						<span class="dt-label dt-label_bold">FontAwesome - </span> <a target="_blank" href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free">https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free</a>
+					</li>
+				</ul>
+				<h3>Images</h3>
+				<p>Any Images or logos used in previews are not included in this item or final purchase.</p>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Pexels</span>
+					</li>
+				</ul>
+			</article>
+		</div>
+	</div>
+<script src="assets/rainbow-custom.min.js"></script>
+</body>
+</html>
